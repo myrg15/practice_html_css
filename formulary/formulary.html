@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./formulary.css">
+</head>
+<body>
+    <h1>Por favor, si usted es docente responda a las siguientes preguntas</h1>
+    <fieldset>
+        <legend>1. Información Personal </legend>
+        <p> Apellidos: <input type="text" name="apellido" value="" size=""></p>
+        <p> Nombres: <input type="text" name="nombre" value="" size=""></p>        
+        <p>Fecha de nacimiento: <input type="text" name="fecha" value="" size=""></p>
+        <p>Sexo: <input type="checkbox" name="mujer" value="mujer">Mujer
+        <input type="checkbox" name="hombre" value="hombre">Hombre
+        </p>    
+    </fieldset>
+    <fieldset>
+        <legend>2.Información de Contacto</legend>
+        <p>Teléfono: <input type="text" name="teléfono" value="" size=""></p>
+        <p>Email: <input type="text" name="email" value="" size=""></p>
+    </fieldset>
+    <fieldset>
+        <legend>3. Datos profesionales</legend>
+        <p>Centro de trabajo: <input type="text" name="centro" value="" size=""></p>
+        <p>Localidad: <input type="text" name="localidad" value="" size=""></p>
+        <p>¿Es funcionario? <input type="checkbox" name="respuesta" value="">NRP:</p>
+        <p>Seminario/nivel: <select name="nivel" id="nivel">
+            <option value="Selección" selected>Seleccione</option>
+            <option value="Lengua y Literatura">Lengua y Literatura</option>
+            <option value="Matemáticas">Matemáticas</option>
+            <option value="Geografía e historia">Geografía e historia</option>
+            <option value="Biología y Geología">Biología y Geología</option> 
+            <option value="Tecnología">Tecnología</option>
+            <option value="Física y Química">Física y Química</option>
+            <option value="Educación plástica y visual">Educación plástica y visual</option>
+            <option value="Música">Música</option>
+            <option value="Educación física">Educación física</option>
+            <option value="cultura y lenguas clásicas">cultura y lenguas clásicas</option>
+            <option value="Ética y filosofía">Ética y filosofía</option>
+            <option value="Primer ciclo ESO">Primer ciclo ESO</option>
+            <option value="Segundo ciclo ESO">Segundo ciclo ESO</option>
+            <option value="Ballicherato">Ballicherato</option>
+        </p>
+    </select>
+    </fieldset>
+    <fieldset>
+        <legend>4. Por favor facilítenos la siguiente información:</legend>
+        <p>¿Cómo llegó hasta aquí? <select name="azar" id="azar">
+            <option value="Selección" selected>Seleccione</option>
+            <option value="Alguien le indicó el URL de la página">Alguien le indicó el URL de la página</option>
+            <option value="A través de un programa buscador">A través de un programa buscador</option>
+            <option value="Mediante un enlace desde otra página">Mediante un enlace desde otra página</option> 
+        </p>
+        </select>
+    </fieldset>
+</body>
+</html>
